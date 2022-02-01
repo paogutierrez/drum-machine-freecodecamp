@@ -1,0 +1,19 @@
+.drum-pad{
+    border:5px solid #333;
+    border-radius: 4px;
+    height:100px;
+    width:100px;
+    background-color:blueviolet;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin:10px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+.drum-pad.active{
+    opacity:0.8;
+    transform: scale(0.95);
+}
