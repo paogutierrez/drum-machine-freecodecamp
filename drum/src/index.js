@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
     <App />,
-  document.getElementById('drum-machine')
+  document.getElementById('root')
 );
 
 
